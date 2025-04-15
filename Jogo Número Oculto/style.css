@@ -1,0 +1,118 @@
+*{
+    background-color:crimson;
+}
+
+.intro{
+    text-align: center;
+    color:aliceblue;
+    text-decoration: solid;
+    margin: 0px;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#container{
+    text-align: center;
+    margin: 0px;
+    padding: 30px;
+}
+
+.style_input{
+    padding: 10px;
+    width: 300px;
+    font-size: 1.2em;
+    border: 2px solid #535252;
+    border-radius: 10px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.style_input:focus {
+    border-color: aliceblue;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+}
+
+.style_button{
+            
+            color: white; 
+            border: none;  
+            padding: 15px 30px; 
+            font-size: 1.2em; 
+            border-radius: 10px; 
+            cursor: pointer; 
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+            transition: 0.3s; 
+        }
+ 
+ .style_button:hover {
+    background-color: black; 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-2px); 
+}
+
+
+.style_button:active {
+    background-color: black; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    transform: translateY(0); 
+}
+
+.reiniciar-botao{
+    text-align: center;
+    padding: 20px;
+    color: white; 
+    border: none;  
+    padding: 15px 30px; 
+    font-size: 1.2em; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: 0.3s;
+}
+
+.reiniciar-botao:hover{
+    background-color:aliceblue;
+    color: black;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+    transform: translateY(-2px); 
+}
+.reiniciar-botao:active{
+    background-color: black; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    transform: translateY(0); 
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.style_button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.reiniciar-botao {
+    display: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#message {
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+    margin: 10px 0;
+}
+
+.imagem-vitoria {
+    display: none;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
